@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juan Antonio Morón Jiménez · Desarrollador DAM</title>
+  <meta name="description" content="Portfolio de Juan Antonio Morón Jiménez, estudiante de Desarrollo de Aplicaciones Multiplataforma (DAM). Java, SQL y desarrollo web.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23f28c28'/><text x='50' y='66' font-size='48' font-family='Arial' font-weight='bold' text-anchor='middle' fill='%230b0f17'>JA</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav contenedor" aria-label="Navegación principal">
+      <a class="logo" href="#inicio">JA<span>.</span></a>
+      <ul class="nav-enlaces">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#tecnologias">Tecnologías</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero contenedor">
+      <div class="avatar" aria-hidden="true">JA</div>
+      <div>
+        <p class="etiqueta">Estudiante de DAM · Marbella</p>
+        <h1>Juan Antonio <br>Morón Jiménez</h1>
+        <p class="hero-texto">
+          Desarrollo aplicaciones con <strong>Java</strong>, trabajo con bases de datos <strong>SQL</strong>
+          y hago webs con <strong>HTML, CSS y JavaScript</strong>. Me interesa especialmente la ciberseguridad.
+        </p>
+        <div class="botones">
+          <a class="boton boton-principal" href="#proyectos">Ver proyectos</a>
+          <a class="boton" href="https://github.com/JuanAntonio0708">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="seccion contenedor">
+      <h2>Sobre mí</h2>
+      <div class="sobre-mi">
+        <p>
+          Estudio el Grado Superior en Desarrollo de Aplicaciones Multiplataforma en Davante Medac Nova (2025 – 2027).
+          En el ciclo he hecho proyectos con hilos en Java, procesamiento de XML con pruebas unitarias en JUnit
+          y la implantación de un ERP con Odoo.
+        </p>
+        <p>
+          Busco prácticas o un primer puesto junior donde aportar, aprender rápido y crecer como desarrollador.
+          Me llevo bien trabajando en equipo y me gusta resolver problemas con lógica.
+        </p>
+      </div>
+    </section>
+
+    <section id="tecnologias" class="seccion contenedor">
+      <h2>Tecnologías</h2>
+      <div class="rejilla rejilla-4">
+        <article class="tarjeta">
+          <h3>Backend</h3>
+          <ul class="chips">
+            <li>Java</li><li>POO</li><li>Hilos</li><li>Maven</li><li>JUnit 5</li>
+          </ul>
+        </article>
+        <article class="tarjeta">
+          <h3>Bases de datos</h3>
+          <ul class="chips">
+            <li>SQL</li><li>MySQL</li><li>PreparedStatement</li>
+          </ul>
+        </article>
+        <article class="tarjeta">
+          <h3>Frontend</h3>
+          <ul class="chips">
+            <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+          </ul>
+        </article>
+        <article class="tarjeta">
+          <h3>Herramientas</h3>
+          <ul class="chips">
+            <li>Git</li><li>GitHub</li><li>NetBeans</li><li>VS Code</li><li>Odoo</li><li>XML · SAX · XPath</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="proyectos" class="seccion contenedor">
+      <h2>Proyectos</h2>
+      <div class="rejilla rejilla-3">
+        <article class="tarjeta proyecto">
+          <p class="proyecto-tipo">Java · Concurrencia</p>
+          <h3>Supermercado con hilos</h3>
+          <p>Simula las cajas de un supermercado atendiendo clientes a la vez. Cada caja es un hilo y se mide cuánto tarda cada una.</p>
+          <ul class="chips chips-peq"><li>Thread</li><li>Runnable</li><li>join</li></ul>
+          <a class="enlace" href="https://github.com/JuanAntonio0708/supermercado-hilos-java">Ver repositorio →</a>
+        </article>
+        <article class="tarjeta proyecto">
+          <p class="proyecto-tipo">Java · XML · Testing</p>
+          <h3>Analizador XML con SAX</h3>
+          <p>Lee un XML de estudiantes con SAX, los agrupa por nota y comprueba el resultado con pruebas unitarias en JUnit.</p>
+          <ul class="chips chips-peq"><li>SAX</li><li>JUnit 5</li><li>Maven</li></ul>
+          <a class="enlace" href="https://github.com/JuanAntonio0708/analizador-xml-sax-junit">Ver repositorio →</a>
+        </article>
+        <article class="tarjeta proyecto">
+          <p class="proyecto-tipo">Web</p>
+          <h3>Tienda de videojuegos</h3>
+          <p>Página de compra de videojuegos con catálogo, formulario de pedido y una tabla que resume los mismos campos.</p>
+          <ul class="chips chips-peq"><li>HTML</li><li>CSS</li></ul>
+          <div class="enlaces">
+            <a class="enlace" href="https://github.com/JuanAntonio0708/tienda-videojuegos-web">Repositorio →</a>
+            <a class="enlace" href="https://juanantonio0708.github.io/tienda-videojuegos-web/">Demo →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="formacion" class="seccion contenedor">
+      <h2>Formación</h2>
+      <ol class="linea">
+        <li>
+          <p class="fecha">2025 – 2027 (en curso)</p>
+          <h3>Grado Superior en Desarrollo de Aplicaciones Multiplataforma</h3>
+          <p>Davante Medac Nova</p>
+        </li>
+        <li>
+          <p class="fecha">2025</p>
+          <h3>Curso de Introducción a Java</h3>
+          <p>OpenWebinars</p>
+        </li>
+        <li>
+          <p class="fecha">2025</p>
+          <h3>Curso de Introducción a la Inteligencia Artificial</h3>
+          <p>OpenWebinars</p>
+        </li>
+        <li>
+          <p class="fecha">2022</p>
+          <h3>Inglés B1</h3>
+          <p>Certificado Cambridge</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="contacto" class="seccion contenedor">
+      <h2>Contacto</h2>
+      <div class="tarjeta contacto">
+        <p>¿Tienes prácticas o un puesto junior? Escríbeme y te respondo.</p>
+        <div class="botones">
+          <a class="boton boton-principal" href="mailto:juanantonio.mor.jim0708@gmail.com">juanantonio.mor.jim0708@gmail.com</a>
+          <a class="boton" href="https://www.linkedin.com/in/juan-antonio-moron-jimenez-476648398">LinkedIn</a>
+          <a class="boton" href="https://github.com/JuanAntonio0708">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie contenedor">
+    <p>© 2026 Juan Antonio Morón Jiménez</p>
+  </footer>
+</body>
+</html>
